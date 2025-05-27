@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Undangan Aliana & Bhaskara</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Popup Nama Tamu -->
+  <div id="popup" class="popup">
+    <h2>Untuk:</h2>
+    <p id="namaTamu">Tamu Undangan</p>
+    <button id="open-invitation">Buka Undangan</button>
+  </div>
+
+  <!-- Konten Undangan -->
+  <div id="invitation" style="display: none;">
+    <h1>Aliana & Bhaskara</h1>
+    <p id="info-nama-tamu"></p>
+
+    <h2>Akad Nikah</h2>
+    <p>Minggu, 20 Juni 2025<br>10.00 WIB - 12.00 WIB<br>Hotel Mawar</p>
+
+    <h2>Resepsi</h2>
+    <p>Minggu, 20 Juni 2025<br>19.00 WIB - 21.00 WIB<br>Hotel Mawar</p>
+
+    <!-- Countdown -->
+    <h2>Menuju Hari Bahagia</h2>
+    <div id="countdown"></div>
+
+    <!-- Lokasi Google Maps -->
+    <h2>Lokasi Acara</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=YOUR_MAP_EMBED_LINK" width="300" height="200" style="border:0;" allowfullscreen></iframe>
+  </div>
+
+  <!-- YouTube Player -->
+  <div id="player" style="display: none;"></div>
+
+  <script src="https://www.youtube.com/iframe_api"></script>
+  <script src="script.js"></script>
+</body>
+</html>
